@@ -1,0 +1,51 @@
+# Computer Craft / Lua .gitignore
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Backup files
+*.bak
+*.backup
+
+# Log files
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Minecraft/Computer Craft specific
+computer/*/disk/
+computer/*/startup
+*.nbs
+
+# Build/distribution files
+build/
+dist/
+*.zip
+*.tar.gz
+
+# Local configuration
+config.lua
+secrets.lua
+private/
+
+# Compiled Lua (if any)
+*.luac
+
+# Package manager files (if using any)
+luarocks/
+.luarocks/ 
